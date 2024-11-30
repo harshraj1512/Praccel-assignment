@@ -23,22 +23,22 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <a>Home</a>
+        <a className="hover:text-blue-700">Home</a>
       </li>
       <li>
-        <a>For School</a>
+        <a className="hover:text-blue-700">For School</a>
       </li>
       <li>
-        <a>Performance</a>
+        <a className="hover:text-blue-700">Performance</a>
       </li>
       <li>
-        <a>Register</a>
+        <a className="hover:text-blue-700">Register</a>
       </li>
       <li>
-        <a>About Us</a>
+        <a className="hover:text-blue-700">About Us</a>
       </li>
       <li>
-        <a>Contact Us</a>
+        <a className="hover:text-blue-700">Contact Us</a>
       </li>
     </>
   );
@@ -79,7 +79,7 @@ const Navbar = () => {
               {/* mobile view */}
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow "
               >
                 {navItems}
               </ul>
@@ -90,10 +90,10 @@ const Navbar = () => {
             {/* desktop view */}
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">{navItems}</ul>
+            <ul className="menu menu-horizontal px-1 font-semibold text-lg">{navItems}</ul>
           </div>
           <div className="navbar-end">
-          <a className="btn bg-[#1D7AFC] text-white">Login</a>
+          <a className="btn bg-blue-700 text-white hover:bg-blue-900 px-7">Login</a>
           </div>
         </div>
       </div>
