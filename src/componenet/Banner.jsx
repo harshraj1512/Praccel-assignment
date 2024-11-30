@@ -4,9 +4,9 @@ import Stu from "../assets/dash.png";
 const Banner = () => {
   return (
     <>
-    <div className="max-w-screen-2xl container mx-auto md:px-6 px-4 flex flex-col md:flex-row my-10">
+    <div className="max-w-screen-2xl container mx-auto md:px-6 px-4 flex flex-col mt-10 md:flex-row my-10">
         <div className='w-full  md:w-1/2'>
-            <img src={Stu} className='w-85 h-85' alt="student" />
+            <img src={Stu} className='' alt="student" />
         </div>
 
         <div className='w-full md:w-1/2 mt-12 md:mt-32  '>
