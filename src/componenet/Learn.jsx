@@ -4,7 +4,7 @@ import Lear from "../assets/learn.png";
 const Learn = () => {
   return (
     <>
-    <div className="max-w-screen-2xl container mx-auto md:px-6 flex flex-col md:flex-row mt-24 my-10">
+    <div className="max-w-screen-2xl container mx-auto md:px-6 flex flex-col md:flex-row mt-32 my-10">
         <div className='w-full  md:w-1/2'>
             <img src={Lear} className='' alt="student" />
         </div>
